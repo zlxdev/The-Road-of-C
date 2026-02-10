@@ -3,7 +3,6 @@
 
 int main(void) {
 
-    
-
+    // some logic here
     return 0;
 }
