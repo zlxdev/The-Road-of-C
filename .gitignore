@@ -10,3 +10,8 @@ bin/*
 .vscode/
 !.vscode/tasks.json
 !.vscode/launch.json
+
+#Ignore directories
+Archive/
+Library/
+Labs/
