@@ -2,12 +2,11 @@
 
 int main(void) {
 
-    int initNum;
-    int targetNum;
+    int num = 0;
 
-    while (initNum == targetNum) {
-        printf("%d\n", initNum);
-        initNum++;
+    while (num <= 50) {
+        printf(" %d\n", num);
+        num++;
     }
     return 0;
 }
