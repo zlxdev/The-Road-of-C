@@ -5,7 +5,7 @@ Welcome to my personal archive for mastering the C programming language. This re
 > **Current Status:** Focusing on "small bits" and foundational concepts.
 
 ---
-## Structured C Sources
+## About this repository: 
 
 ### 💡 Philosophy: "Learn First, AI Later"
 This repository is built with a specific mindset: **Hand-coded mastery.**
@@ -15,9 +15,9 @@ This repository is built with a specific mindset: **Hand-coded mastery.**
 ### 📂 Repository Structure
 Currently, some directories (like *University*, *Labs*, and *Projects*) are maintained locally or are Work-In-Progress (WIP) and may not be fully visible here yet.
 
-* **Concepts/** - Core C mechanics (Pointers, Structs, Memory).
-* **Labs/** - *[Hidden/Local]* Experimental code.
-* **Projects/** - *[Hidden/Local]* Larger applications.
+* **Concepts/** - Core Programming fundmanetals and C mechanics (From basics -> Pointers, Structs, Memory).
+* **Labs/** - *[Hidden/Local]* Will be released soon.
+* **Projects/** - *[Hidden/Local]* Will be released soon.
 
 ### 🛠️ Tech Stack
 * **Language:** C (C99/C11)
