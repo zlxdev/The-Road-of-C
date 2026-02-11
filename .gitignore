@@ -13,7 +13,6 @@ bin/*
 
 #Ignore directories
 practice/
-Labs/
 Projects/
 University/
 Library/
