@@ -1,30 +1,50 @@
 # The Road of C 🚀
 
-My personal repository for mastering C programming, focusing on low-level concepts, memory management, and system architecture.
+Welcome to my personal archive for mastering the C programming language. This repository documents my journey from high-level understanding down to low-level memory management and hardware interaction.
+
+> **Current Status:** Focusing on "small bits" and foundational concepts.
 
 ---
-## Academic structurize C src's
+## Structured C Sources
+
+### 💡 Philosophy: "Learn First, AI Later"
+This repository is built with a specific mindset: **Hand-coded mastery.**
+* **The Code:** Written primarily by hand to ensure deep understanding of syntax and logic.
+* **AI Usage:** AI is treated as a *last resort*. It is used only when you are completely stuck on a concept, acting as a tutor rather than a writer. The goal is to struggle with the problem first, as that is where the learning happens.
 
 ### 📂 Repository Structure
-* **Concepts/** - Deep dives into pointers, memory, and structs.
-* **Labs/** - Practical experiments and small tests. [WIP, might not be visible in repository]
-* **Projects/** - Larger applications (e.g., converters, games). [WIP, might not be visible in repository]
-* **University/** - Academic coursework and assignments. [WIP, might not be visible in repository]
+Currently, some directories (like *University*, *Labs*, and *Projects*) are maintained locally or are Work-In-Progress (WIP) and may not be fully visible here yet.
+
+* **Concepts/** - Core C mechanics (Pointers, Structs, Memory).
+* **Labs/** - *[Hidden/Local]* Experimental code.
+* **Projects/** - *[Hidden/Local]* Larger applications.
 
 ### 🛠️ Tech Stack
 * **Language:** C (C99/C11)
 * **Build System:** Make
 * **Environment:** WSL / Linux
 
+### ⚡ How to Run?
+This project uses a custom `Makefile` system. To compile and run a specific file, use the following pattern in your terminal:
+
+```bash
+make <DIRECTORY>/<SUB_DIRECTORY>/<FILENAME>.run
+```
+
+### 🎯 Goals
+* **Solidify knowledge of C fundamentals.**
+* **Understand manual memory management.**
+* **Help you guide to build a strong portfolio of low-level coding challenges.**
+
 ---
 
-### What is it intended for?
+### 👥 Who is it intended to?
 
--> ___Students who wanna follow along with this repository, who wanna learn C from someone on their path, or my peers who are curious and wanna master C before moving on to other languages.___
+> Students who want to follow along with this repository, learn C from someone on the same path, or peers who are curious and want to master C before moving on to other languages.
 
 ### How is it different from other tutorials of C?
 
--> ___For startes, this is made by myself, which means all codes here are written without/with barely use of AI. Which means other contributers can help solidify my knowledge if they know any good alternative coding styles and habits, that can improve or sometimes fix my code. Hence, why this repository is more-focused on engagement than actual follow up___
+> Unlike standard tutorials, this is a student-led journey. Since the code is hand-written with minimal AI assistance, I invite contributors to suggest better coding styles, optimizations, or fixes. This repository prioritizes engagement and mutual learning over passive following.
 
 ---
 *Maintained by Johnzel Marahay*
