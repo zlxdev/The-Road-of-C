@@ -26,10 +26,15 @@ Here is the sample of existing file structure:
 ├── Concepts/          # Core programming fundamentals & C mechanics
 │   ├── Basics/        # Syntax, Loops, Functions
 │   └── Memory/        # Pointers, Structs, Stack vs Heap
-├── Labs/              # Experimental code / Try-it-your-own code
+├── Labs/              # Experimental code (Testing, Build, Debugging)
+├── Practice/          # DIY Codes (Best for solidifying concepts)
 ├── Projects/          # [Hidden/Local]
 └── Library/           
 ```
+
+### My Recommendation
+
+> Ignore other directories aside from ```Concepts/Basics``` and ```Labs/``` for testing, if you just started learning. That way, you can focus on learning the concepts rather than being all over the place at the same time.
 
 ## Tech Stack
 * **Language:** C (C99/C11)
