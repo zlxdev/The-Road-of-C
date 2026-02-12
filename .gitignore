@@ -12,7 +12,6 @@ bin/*
 !.vscode/launch.json
 
 #Ignore directories
-practice/
 Projects/
 University/
 Library/
