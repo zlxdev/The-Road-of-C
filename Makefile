@@ -20,6 +20,7 @@ BIN = bin
 		@echo "Build successful! Running..."
 		@echo "-------------------------------------------------"
 		@sleep 1.25
+		@echo " "
 		@./$(BIN)/runner
 		@echo "\n\n================================================="
 		@echo "                 END OF PROGRAM"
