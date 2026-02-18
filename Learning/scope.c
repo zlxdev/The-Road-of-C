@@ -26,6 +26,11 @@ int main(void) {
         choiceUI();
         scanf("%d", &choice);
 
+        if (choice != 1){
+            printf("\n\nCannot render a char to an int. Exiting.\n"); 
+            return 1;
+        }
+
         switch (choice) {
             case 1:
                 calculateAreaofcircle(r);
