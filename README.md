@@ -26,9 +26,9 @@ Here is the sample of existing file structure:
 ├── Concepts/          # Core programming fundamentals & C mechanics
 │   ├── Basics/        # Syntax, Loops, Functions (Completed)
 │   └── Memory/        # Pointers, Structs, Stack vs Heap
-├── Labs/              # Experimental code (Testing, Build, Debugging)
-├── Practice/          # DIY Codes (Best for solidifying concepts)
-├── Projects/          # [Hidden/Local]
+├── Labs/              # [Hidden/Local]
+├── Practice/          
+├── Projects/          
 └── Library/           
 ```
 
