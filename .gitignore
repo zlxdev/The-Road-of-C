@@ -6,6 +6,9 @@
 #Ignore trash folders
 bin/*
 
+#But don't ignore these contents
+!bin/.gitkeep
+
 #Ignore .vscode folder
 .vscode/
 !.vscode/tasks.json
