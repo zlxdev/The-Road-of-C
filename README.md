@@ -43,7 +43,13 @@ Here is the sample of existing file structure:
 
 ### My Recommendation
 
-> Read the concepts first in `src/core/`, and try practicing it in the `test/` section in order to solidify understanding. You can also build mini-projects in section 
+> Read the concepts first in `src/core/`, and try practicing it in the `test/` section in order to solidify understanding. You can also build mini-projects in section
+
+## Tech Stack
+* **Language:** C (C99/C11)
+* **Build System:** Makefile
+* **Environment:** WSL / Linux
+* **IDE:** VSCode
 
 
 ## Build System Inegration
@@ -82,12 +88,6 @@ make clean
 ```
 </details>
 
-## Tech Stack
-* **Language:** C (C99/C11)
-* **Build System:** Make
-* **Environment:** WSL / Linux
-* **IDE:** VSCode
-
 ## Goals
 * **Solidify understanding of C syntax.**
 * **Understanding how C interacts with memory.**
@@ -99,7 +99,7 @@ make clean
 
 ### How is it different from other tutorials of C?
 
-> Unlike standard tutorials, this is a interactive journey. Since this repository does exists, it means it has version control. So, I invite contributors to suggest better coding styles, optimizations, or fixes. This repository prioritizes collaborative work and engagement among teams
+> Unlike standard tutorials, this is a interactive journey. Since this repository does exists, it means it has version control. So, I invite contributors to suggest better coding styles, optimizations, or fixes. This repository prioritizes collaborative work and engagement among teams.
 
 ---
 
