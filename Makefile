@@ -1,32 +1,29 @@
-#Compiler
-CC = gcc
+# Compiler settings
+CC := gcc
+CFLAGS := -Wall -Wextra -g -Iinclude
 
-#Debugger (useful for checking errors)
-CFLAGS = -Wall -Wextra -g -Werror
+# Directory settings
+BIN_DIR := bin
 
-#Diretories
-BIN = bin
+# Target file configuration (default fallback provided)
+FILE ?= src/core/01_datatypes/core_type_bool.c
+BASENAME := $(basename $(notdir $(FILE)))
+TARGET := $(BIN_DIR)/$(BASENAME)
 
-#Initializing
-%.run: %.c
-		@mkdir -p $(BIN)
-		@echo "================================================="
-		@echo "Compiling the file: $<"
-		@echo "================================================="
-		@sleep 0.5
+.PHONY: all build run clean
 
-		$(CC) $(CFLAGS) "$<" -o "$(BIN)/runner"
+all: build
 
-		@echo "Build successful! Running..."
-		@echo "-------------------------------------------------"
-		@sleep 1.25
-		@echo " "
-		@./$(BIN)/runner
-		@echo "\n\n================================================="
-		@echo "                 END OF PROGRAM"
-		@echo "=================================================\n"
+# Compiles the specified file and places the executable in the bin directory
+build:
+	@mkdir -p $(BIN_DIR)
+	$(CC) $(CFLAGS) $(FILE) -o $(TARGET)
 
-# Cleaning up
+# Compiles and immediately executes the binary
+run: build
+	@./$(TARGET)
+
+# Removes compiled binaries while preserving the directory structure
 clean:
-		rm -rf $(BIN)/*
-		@echo "Bin folder has been cleaned"
+	rm -rf $(BIN_DIR)/*
+	@touch $(BIN_DIR)/.gitkeep
