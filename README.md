@@ -89,9 +89,9 @@ make clean
 * **IDE:** VSCode
 
 ## Goals
-* **Solidify knowledge of C fundamentals.**
-* **Understand manual memory management.**
-* **Help guide you to build a strong portfolio of low-level coding challenges.**
+* **Solidify understanding of C syntax.**
+* **Understanding how C interacts with memory.**
+* **Helps you understand how dangerous unoptimized codes are.**
 
 ### Who is this intended for??
 
