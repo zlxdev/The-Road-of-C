@@ -15,10 +15,10 @@ Welcome to a personal archive for mastering the C programming language. This rep
 
  I hope this repository would be in help of any-way, as i will update this repository even if i switch languages to something like `C++`, `Java`, `Python`, and etc. This repository should mark as my first journey to being an engineer, starting from middle-end of low level languages to high languages like `Python` or `C++` for machine learning and infrastructure intelligence.
 
-## Core Maxims: "Learn First, AI Later"
+## Core Principle: "Learn First, AI Later"
 This repository is built with a specific mindset: **Hand-coded mastery.**
 * **The Code:** Written primarily by hand to ensure deep understanding of syntax and logic.
-* **AI Usage:** AI is treated as a *Tutor*. Used only when you are completely stuck on a concept, acting as a teacher rather than a the coder itself. The principle is to learn how the concept is done by typing it by hand and struggling on the problem,as that is where the learning happens.
+* **AI Usage:** AI is treated as a *Tutor*. Used only when you are completely stuck on a concept, acting as a teacher rather than a the coder itself. The principle is to learn how the concept is done by typing it manually and deliberately struggling on the problem, as that is where the learning happens.
 * **WSL:** Wsl is highly recommended, since this code heavily uses WSL terminal for compiling, testing, debugging, and running codes or even using git. I would say it's a must if you wanna avoid installing alot of stuff in VSCode Windows.
 
 ## Repository Structure
